@@ -45,7 +45,7 @@ void c_ecg_wave_ctrl::on_paint()
 	//show unit
 	c_word::draw_string_in_rect(m_surface, m_z_order, "1mv", mvRect, m_wave_unit_font_type, m_wave_color, COLOR_TRANPARENT);
 
-	save_foreground();
+	save_background();
 }
 
 void c_ecg_wave_ctrl::draw_grid()
